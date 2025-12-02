@@ -1,0 +1,11 @@
+Research Objective,Best Dataset,Samples/Cells,Access,Priority
+Characterize neutrophil heterogeneity,GSE188288,">185,000 neutrophils",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188288,⭐⭐⭐ CRITICAL
+Identify NETosis-related gene signatures,Published NETosis Study (61 genes),"61 validated genes across 3,298 patients",Published + GEO data,⭐⭐⭐ CRITICAL
+Map neutrophil-tumor cell interactions,GSE131907,"208,506 cells from 44 patients",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131907,⭐⭐⭐ HIGH
+Develop NETosis scoring metrics,GSE188288 + Published genes,"185,000 neutrophils + workflow",GEO GSE188288,⭐⭐⭐ CRITICAL
+Link to clinical outcomes,TCGA-LUAD,515 RNA-seq samples + clinical data,https://portal.gdc.cancer.gov/ or LinkedOmics,⭐⭐⭐ HIGH
+Compare healthy vs tumor neutrophils,GSE188288 + GSE131907,"185,000 healthy + 5-10,000 tumor neutrophils",GEO (both datasets),⭐⭐⭐ CRITICAL
+Breast cancer immune context,GSE176078,"130,246 immune cells from 26 tumors",GEO GSE176078 + CellxGene,⭐⭐ MEDIUM
+PDAC immune context,GSE212966,~100-200 immune cells from 9 samples,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212966,⭐ LOW
+Bulk RNA-seq validation,TCGA-LUAD/TCGA-LUSC,515 LUAD / 504 LUSC samples,GDC Portal or LinkedOmics,⭐⭐⭐ HIGH
+Tissue-resident neutrophil profiling,Salcher et al. NSCLC Atlas,"~900,000 cells from 505 samples (298 patients)",bioRxiv + Integrated public data,⭐⭐⭐ EXCELLENT

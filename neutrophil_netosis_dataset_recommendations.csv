@@ -1,0 +1,11 @@
+Category,Dataset,Source,Type,Samples,Key Advantage,Availability
+Highly Suitable - Primary Datasets for Neutrophil Analysis,GSE188288,GEO (NCBI),scRNA-seq,">185,000 neutrophils (circulating)",Largest circulating neutrophil dataset; identifies 4 distinct transcriptional states (Nh0-Nh3),PUBLICLY AVAILABLE
+Highly Suitable - Primary Datasets for Neutrophil Analysis,GSE131907,GEO (NCBI),scRNA-seq (10X Genomics),"58 samples (208,506 cells from 44 patients)",Includes tissue-resident neutrophils in TME; tumor-infiltrating immune cells,PUBLICLY AVAILABLE - RECOMMENDED
+Highly Suitable - Primary Datasets for Neutrophil Analysis,"Large-scale NSCLC Atlas (Salcher et al., 2022)",Published + Public datasets (bioRxiv),Integrated scRNA-seq from 19 studies,"505 samples from 298 patients (~900,000 cells, increased neutrophil coverage)",FIRST to systematically identify tissue-resident neutrophils (TRN); developed modified analysis pipeline for neutrophil detection,PUBLICLY AVAILABLE - EXCELLENT FOR NETOSIS
+Highly Suitable - Datasets with NETosis Focus,NETosis-Related Gene Analysis (Published 2023),"Published + GEO datasets (GSE72094, GSE31210, TCGA-LUAD)",Integrated scRNA-seq + bulk RNA-seq,"3,298 NSCLC patients across multiple cohorts",Identified 61 prognostic NETosis-related genes (NRGs); developed NETosis Risk Score,DATA FROM PUBLIC SOURCES - METHODOLOGY AVAILABLE
+Highly Suitable - Datasets with NETosis Focus,Lung Cancer NETs Study (Published 2025),Original research + functional validation,Functional analysis + flow cytometry + scRNA-seq,Lung cancer patients + healthy donors,,RECENTLY PUBLISHED - MECHANISTIC INSIGHTS
+Suitable - Breast Cancer Datasets,GSE176078,GEO + CellxGene + EGA,scRNA-seq + spatial transcriptomics + CITE-Seq,"26 primary breast cancers (130,246 cells after QC)",,PUBLICLY AVAILABLE
+Suitable - Breast Cancer Datasets,"Integrated Breast Cancer Atlas (236,363 cells)",8 public datasets integrated,,"119 biopsy samples (236,363 cells)",,DATA INTEGRATED FROM PUBLIC SOURCES
+Suitable - Pancreatic Cancer Datasets,GSE212966,GEO,scRNA-seq,9 samples (6 PDAC + 3 normal pancreatic tissue),,PUBLICLY AVAILABLE
+Recommended - Bulk RNA-seq Validation Datasets,TCGA-LUAD,,,515 samples with RNA-seq,,PUBLICLY AVAILABLE
+Recommended - Bulk RNA-seq Validation Datasets,TCGA-LUSC,,,504 samples,,PUBLICLY AVAILABLE

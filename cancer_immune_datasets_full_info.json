@@ -1,0 +1,289 @@
+{
+  "Human Lung adenocarcinoma - Tumor-infiltrating immune cells": {
+    "Primary Sources": [
+      {
+        "Database": "GEO",
+        "Accession": "GSE131907",
+        "Title": "Single cell RNA sequencing of lung adenocarcinoma",
+        "Type": "scRNA-seq",
+        "Samples": "58 samples (208,506 cells from 44 patients)",
+        "Coverage": "Primary tumors, lymph nodes, brain metastases, pleural effusion, normal lung tissues",
+        "Platform": "Illumina NextSeq 500",
+        "Reference": [
+          3
+        ]
+      },
+      {
+        "Database": "GEO",
+        "Accession": "GSE123902",
+        "Title": "scRNA-seq of lung adenocarcinoma",
+        "Type": "scRNA-seq",
+        "Samples": "14 samples (primary, metastatic, normal lung)",
+        "Reference": [
+          40
+        ]
+      },
+      {
+        "Database": "GEO",
+        "Accession": "GSE117570",
+        "Title": "Reprogramming of Tumor-infiltrating Immune Cells in Early Stage of NSCLC",
+        "Type": "scRNA-seq + computational deconvolution",
+        "Samples": "8 samples (4 tumor + 4 adjacent normal from treatment-naive NSCLC patients)",
+        "Cells": "11,485 cells",
+        "Coverage": "Early-stage NSCLC with immune cell mapping from TCGA (44 NSCLC + adjacent normal)",
+        "Platform": "Illumina NextSeq 500",
+        "Reference": [
+          21
+        ]
+      },
+      {
+        "Database": "TCGA",
+        "Accession": "TCGA-LUAD",
+        "Title": "The Cancer Genome Atlas - Lung Adenocarcinoma",
+        "Type": "Bulk RNA-seq, WES, methylation, CNV, clinical data",
+        "Samples": "522 tumor samples + 59 healthy lung tissue samples",
+        "Coverage": "Comprehensive genomic and transcriptomic profiling",
+        "Reference": [
+          27,
+          46
+        ]
+      },
+      {
+        "Database": "TCGA/GEO validation",
+        "Accession": "GSE50081",
+        "Title": "Validation cohort for LUAD prognostic models",
+        "Type": "Bulk RNA-seq",
+        "Samples": "127 lung carcinoma specimens",
+        "Reference": [
+          11
+        ]
+      }
+    ],
+    "Key Immune Cells Identified": "CD8+ T cells, NK cells, M1/M2 macrophages, CD14+ monocytes, myeloid-derived suppressor cells",
+    "Key Features": "Dynamic myeloid reprogramming, monocyte-to-macrophage differentiation paths"
+  },
+  "Human Pancreatic cancer - PDAC immune microenvironment": {
+    "Primary Sources": [
+      {
+        "Database": "GEO",
+        "Accession": "GSE212966",
+        "Title": "Single-cell RNA-seq reveals immune landscape of pancreatic cancer",
+        "Type": "scRNA-seq",
+        "Samples": "6 PDAC samples + 3 adjacent normal pancreatic samples",
+        "Coverage": "Immune profiling between PDAC and adjacent normal pancreatic tissues",
+        "Reference": [
+          37,
+          44
+        ]
+      },
+      {
+        "Database": "Published Study",
+        "Source": "Wang et al., 2022 (BMJ JITC)",
+        "Title": "Local and systemic immune profiles of human pancreatic cancer",
+        "Type": "Mass cytometry (CyTOF) + flow cytometry",
+        "Samples": "11 PDAC patients",
+        "Coverage": "PDAC tumors, non-malignant pancreatic tissue, regional lymph nodes, spleen, portal vein blood, peripheral blood",
+        "Immune Markers": "41 immune cell markers measured by mass cytometry",
+        "Reference": [
+          2
+        ]
+      },
+      {
+        "Database": "Published Study (Spatial Transcriptomics)",
+        "Title": "Spatially resolved multi-omics single-cell analyses inform mechanisms of immune-dysfunction in pancreatic cancer",
+        "Type": "Spatial transcriptomics (Visium) + scRNA-seq + bulk RNA-seq",
+        "Samples": "8 tissue sections for spatial analysis",
+        "Dataset ID": "STDS0000225",
+        "Reference": [
+          25
+        ]
+      },
+      {
+        "Database": "TCGA",
+        "Accession": "TCGA-PAAD",
+        "Title": "The Cancer Genome Atlas - Pancreatic Adenocarcinoma",
+        "Type": "Bulk RNA-seq, methylation, mutation, RPPA, clinical data",
+        "Samples": "178 tumor samples with RNA-seq data",
+        "Clinical Samples": "185 with clinical annotation",
+        "Reference": [
+          32,
+          35
+        ]
+      },
+      {
+        "Database": "Published Study",
+        "Title": "A Single-Cell Atlas of Tumor-Infiltrating Immune Cells in Pancreatic Cancer",
+        "Type": "Mass cytometry",
+        "Samples": "PDAC tumors from 12 patients (8 PDAC + 2 CP tumors), 9 PBMC samples",
+        "Total Cells": "2 million+ immune cells analyzed",
+        "Coverage": "PDAC tumors, normal pancreatic tissues, chronic pancreatitis tissues, peripheral blood",
+        "Reference": [
+          23
+        ]
+      }
+    ],
+    "Key Immune Cells Identified": "CD8+ T cells, B cells, regulatory T cells (Tregs), macrophages (M1/M2), innate lymphoid cells (ILC1-like), MDSCs",
+    "Key Features": "Immunosuppressive landscape, increased Tregs and B cells, depletion of cytotoxic CD8+ T cells"
+  },
+  "Human Breast cancer - Breast tumor immune landscape": {
+    "Primary Sources": [
+      {
+        "Database": "GEO",
+        "Accession": "GSE161529",
+        "Title": "scRNA-seq profiling of breast cancer tumors, BRCA1 mutant pre-neoplastic mammary gland cells and normal mammary gland cells",
+        "Type": "scRNA-seq (10X Genomics)",
+        "Samples": "69 scRNA-seq profiles from 52 patients",
+        "Total Cells": "421,761 cells",
+        "Coverage": "4 TNBC, 4 BRCA1 TNBC, 6 HER2+, 19 ER+, 6 lymph node metastases, 13 normal mammary gland, 4 pre-neoplastic BRCA1",
+        "Reference": [
+          33
+        ]
+      },
+      {
+        "Database": "Published Study",
+        "Title": "A Single-Cell Atlas of the Breast Cancer Microenvironment",
+        "Type": "scRNA-seq integration study",
+        "Samples": "31 integrated datasets totaling 1.2 million cells from 376 samples",
+        "Coverage": "Breast cancer subtypes (TNBC, Luminal A, Luminal B, HER2+) with distinct immune signatures",
+        "Reference": [
+          3
+        ]
+      },
+      {
+        "Database": "Published Study",
+        "Title": "Immune landscape in estrogen receptor positive breast cancer",
+        "Type": "Flow cytometry + multispectral immunohistochemistry (mIHC) + scRNA-seq",
+        "Samples": "53 ER+ IDC and 65 ER+ ILC tumor samples analyzed by mIHC; flow cytometry cohort",
+        "Coverage": "ER+ invasive ductal carcinoma (IDC) and invasive lobular carcinoma (ILC)",
+        "Reference": [
+          6
+        ]
+      },
+      {
+        "Database": "TCGA",
+        "Accession": "TCGA-BRCA",
+        "Title": "The Cancer Genome Atlas - Breast Cancer",
+        "Type": "Bulk RNA-seq, mutation, methylation, CNV, clinical data",
+        "Samples": "1080 breast cancer samples with multi-omics profiles",
+        "Coverage": "ER+, HER2+, triple-negative, other subtypes",
+        "Reference": [
+          9
+        ]
+      },
+      {
+        "Database": "GEO validation",
+        "Accession": "GSE20711",
+        "Title": "Breast cancer transcriptome validation cohort",
+        "Type": "Microarray",
+        "Use": "External validation for prognostic models",
+        "Reference": [
+          30
+        ]
+      }
+    ],
+    "Key Immune Cells Identified": "Macrophages (M1/M2), T cells (CD4+, CD8+), B cells, plasma cells, dendritic cells, Tregs",
+    "Key Features": "Subtype-specific immune signatures (TNBC: proliferative T cells; ER+: cycling macrophages), immune exclusion in ER+ tumors"
+  },
+  "Human Lung adenocarcinoma - Bulk tumor validation": {
+    "Primary Sources": [
+      {
+        "Database": "TCGA",
+        "Accession": "TCGA-LUAD",
+        "Title": "Comprehensive bulk RNA-seq dataset",
+        "Type": "Bulk RNA-seq, clinical outcomes",
+        "Samples": "515 tumor samples with HiSeq RNA-seq data",
+        "Coverage": "Primary tumors with complete survival and clinical data",
+        "Reference": [
+          46
+        ]
+      },
+      {
+        "Database": "GEO",
+        "Accession": "GSE50081",
+        "Title": "LUAD bulk transcriptome",
+        "Type": "Bulk RNA-seq/microarray",
+        "Samples": "127 lung carcinoma specimens",
+        "Use": "Validation for scRNA-seq derived prognostic signatures",
+        "Reference": [
+          11
+        ]
+      },
+      {
+        "Database": "GEO",
+        "Accession": "GSE26939, GSE72094",
+        "Title": "LUAD bulk RNA-seq cohorts",
+        "Type": "Bulk RNA-seq",
+        "Use": "Training and validation for tumor stem cell signatures",
+        "Reference": [
+          14
+        ]
+      },
+      {
+        "Database": "Immunotherapy Response",
+        "Accession": "IMvigor210, GSE78220",
+        "Title": "PD-1/PD-L1 blockade response cohorts",
+        "Type": "Bulk RNA-seq with immunotherapy outcomes",
+        "Samples": "Patients treated with anti-PD-1 therapy",
+        "Use": "Validation for immune checkpoint blockade predictions",
+        "Reference": [
+          11
+        ]
+      }
+    ],
+    "Key Measurements": "Gene expression (FPKM/RSEM), survival outcomes, immunotherapy response",
+    "Sample Size": "500+ primary LUAD tumors with complete data"
+  },
+  "Healthy vs NSCLC - Immune cell comparison": {
+    "Primary Sources": [
+      {
+        "Database": "GEO",
+        "Accession": "GSE117570",
+        "Title": "Early-stage NSCLC immune reprogramming",
+        "Type": "scRNA-seq comparison: tumor vs adjacent normal",
+        "Samples": "4 treatment-naive NSCLC patients (4 tumor + 4 adjacent normal)",
+        "Immune Cells": "11,485 cells analyzed",
+        "Coverage": "Immune landscape changes from normal to early-stage NSCLC",
+        "Key Comparison": "CD8+ T cells, NK cells, myeloid cells between tumor and adjacent normal tissues",
+        "Reference": [
+          21
+        ]
+      },
+      {
+        "Database": "TCGA computational",
+        "Accession": "TCGA-LUAD",
+        "Title": "Immune infiltration in NSCLC vs normal lung",
+        "Type": "Computational deconvolution of bulk RNA-seq",
+        "Samples": "44 NSCLC tumors + 44 adjacent normal samples from TCGA",
+        "Immune Inference": "Using CIBERSORT and other deconvolution algorithms",
+        "Coverage": "Heterogeneous patterns of immune cell alterations",
+        "Reference": [
+          21
+        ]
+      },
+      {
+        "Database": "GEO",
+        "Accession": "GSE131907",
+        "Title": "LUAD vs normal lung tissue comparison",
+        "Type": "scRNA-seq",
+        "Normal Samples": "10 distant normal lung tissues, 10 normal lymph nodes",
+        "Tumor Samples": "11 primary tumors, metastatic samples",
+        "Coverage": "Comprehensive cell atlas including immune comparison",
+        "Reference": [
+          45
+        ]
+      },
+      {
+        "Database": "Published Study (Mass Cytometry)",
+        "Title": "Immune biology of NSCLC revealed by single-cell proteomic analysis",
+        "Type": "Flow cytometry with 35 immune markers",
+        "Coverage": "9 major immune populations: CD8+ T, CD4+ T, Tregs, NK, NKT, B cells, granulocytes, macrophages, DCs",
+        "Key Finding": "CD62L+ CD4+ T cell enrichment in responders vs non-responders",
+        "Reference": [
+          15
+        ]
+      }
+    ],
+    "Key Comparisons": "Immune infiltration patterns, T cell exhaustion, myeloid differentiation, NK cell abundance",
+    "Sample Numbers": "44 NSCLC + matching adjacent normal from TCGA; 4 NSCLC + 4 normal from GSE117570"
+  }
+}
